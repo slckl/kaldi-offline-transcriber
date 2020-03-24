@@ -117,7 +117,7 @@ gen_to_ord_gen_specials = {
 }
 
   
-@pytest.fixture(scope="module") 
+# @pytest.fixture(scope="module")
 def words2num_fst():
     
   left_break = a("[BOS]") | a(" ") 
